@@ -9,5 +9,6 @@ int main()
     myObj.volatile_mutex_test();
     myObj.forward_test();
     myObj.deffer_async_test();
+    myObj.future_test();
     return 0;
 }

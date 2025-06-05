@@ -24,6 +24,7 @@ class New_CPP_Test{
     void forward_test();
     void volatile_mutex_test();
     void remove_cv_test();
+    void future_test();
 };
 
 #endif /* test_hpp */

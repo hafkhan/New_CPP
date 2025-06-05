@@ -30,7 +30,7 @@ g++ -std=c++20 *.cpp -o cpp_test
 | `forward_test.cpp`     | Shows how `std::forward` handles lvalues and rvalues.                       |
 | `volatile_mutex.cpp`   | Compares `volatile` with synchronization using `std::mutex`.                |
 | `remove_cv_test.cpp`   | Uses `std::remove_cv` and `std::is_same` to demonstrate type manipulation.  |
-| `future_test.cpp`      | Contains a standalone `future_test()` that delays and returns a result.     |
+| `future_test.cpp`      | Now part of the class; demonstrates `std::future` with delay and result.    |
 
 ---
 
@@ -48,5 +48,5 @@ g++ -std=c++20 *.cpp -o cpp_test
 ## 📌 Notes
 
 - This project is for educational purposes and exploration.
-- Functions are structured inside `New_CPP_Test` except for `future_test()` which is standalone.
+- All test functions are now inside the `New_CPP_Test` class.
 - Contributions or feedback are welcome!

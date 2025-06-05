@@ -9,8 +9,7 @@ int returnTwo() {
    return 2;
 }
 
-// driver code
-void future_test()
+void New_CPP_Test::future_test()
 {
    // creating a future object and a thread that executes
    // the function return two asynchronously
